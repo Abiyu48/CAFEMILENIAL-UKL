@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-image: url(aset/tasty-pizza-near-ingredients.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto; 
+}
+
+form table {
+    width: 100%;
+}
+
+form table tr {
+    padding: 8px;
+}
+
+form table tr td:first-child {
+    text-align: right;
+    padding-right: 10px;
+}
+
+form table tr td input[type="text"],
+form table tr td input[type="password"],
+form table tr td select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form table tr td input[type="submit"] {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto; /* Menggeser tombol ke kanan */
+    margin-right: 0;
+    display: block; 
+    margin-top: 10px; 
+}
+
+
+form table tr td input[type="submit"]:hover {
+    background-color: #ff6600;
+}
+
